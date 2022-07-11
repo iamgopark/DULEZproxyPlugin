@@ -1,0 +1,31 @@
+{
+   "name": "DUL EZproxy Plugin",
+   "description": "This extension will search Duke Library Catalog and add DUL's EZproxy prefix to the current URL",
+   "version": "1.1",
+
+   "author" : "Sarah Park",
+   "permissions": ["tabs"],
+
+   "background": {
+      "service_worker": "background.js"
+   },
+
+   "icons": {
+      "16": "/images/plugin16.png",
+      "32": "/images/plugin32.png",
+      "48": "/images/plugin48.png",
+      "128": "/images/plugin128.png"
+   },
+
+   "action": {
+      "default_icon": {
+         "16": "/images/plugin16.png",
+         "32": "/images/plugin32.png",
+         "48": "/images/plugin48.png",
+         "128": "/images/plugin128.png"
+     }
+   },
+
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "manifest_version": 3
+}
